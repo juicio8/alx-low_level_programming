@@ -10,8 +10,7 @@ int main(void)
 
 	alphab = 'a';
 
-	do 
-	{
+	do {
 		if (alphab == 'e' || alphab == 'q')
 		{
 			alphab++;
