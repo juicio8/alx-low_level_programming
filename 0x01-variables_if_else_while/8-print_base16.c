@@ -17,7 +17,7 @@ int main(void)
 		putchar((a % 10) + '0');
 		a++;
 	}
-	while (b <= 'z')
+	while (b <= 'f')
 	{
 		putchar(b);
 		b++;
