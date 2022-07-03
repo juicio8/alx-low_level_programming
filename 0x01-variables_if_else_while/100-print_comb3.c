@@ -8,7 +8,6 @@ int main(void)
 {
 	int fnum;
 	int snum;
-	int anum;
 
 	for (fnum = 0; fnum < 9; fnum++)
 	{
@@ -20,11 +19,10 @@ int main(void)
 			if (fnum == 8 && snum == 9)
 			{
 				continue;
-
 			}
-			putchar(',');
-			putchar(' ');	
 		}
+			putchar(',');
+			putchar(' ');
 	}
 	putchar('\n');
 	return (0);
