@@ -8,6 +8,8 @@ int main(void)
 {
 	int word;
 
+	word = '_';
+	putchar(word);
 	word = 'p';
 	putchar(word);
 	word = 'u';
