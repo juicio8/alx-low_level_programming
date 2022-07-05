@@ -1,10 +1,26 @@
-#include <unistd.h>
+#include <stdio.h>
 /**i
  * _putchar - display _putchar
  *
  * Return: Always 0 (Success)
  */
-int _putchar(char c)
+int _putchar(void)
 {
-	return(write(1, &c, 1));
+	int word;
+
+	word = 'p';
+	putchar(word);
+	word = 'u';
+	putchar(word);
+	word = 't';
+	putchar(word);
+	word = 'c';
+	putchar(word);
+	word = 'h';
+	putchar(word);
+	word = 'a';
+	putchar(word);
+	word = 'r';
+	putchar(word);
+	putchar('\n');
 }
