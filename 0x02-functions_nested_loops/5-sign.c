@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * print_sign - check if n is positive or negative
  * @n: number to be considered
