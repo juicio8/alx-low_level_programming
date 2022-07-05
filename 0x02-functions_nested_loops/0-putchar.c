@@ -1,8 +1,9 @@
 #include <stdio.h>
-/**i
- * main - display _putchar
+/**
+ * main - Entry point
  *
  * Return: Always 0 (Success)
+ *
  */
 int main(void)
 {
