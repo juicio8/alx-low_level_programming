@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * abs - display absolute number
  * @n: The integer to be computed
@@ -6,8 +7,11 @@
  */
 int _abs(int n)
 {
+	int a;
+
 	if (n < 0 || n < 0)
-		return (n);
+		a = abs (n)
+		return (a);
 	else
 		return (0);
 }
