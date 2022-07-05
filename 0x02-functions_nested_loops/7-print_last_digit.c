@@ -4,9 +4,7 @@
  *
  * Return: Always return number
  */
-int print_last_digit(int)
+int print_last_digit(int c)
 {
-	int c;
-
 	return (c % 10);
 }
