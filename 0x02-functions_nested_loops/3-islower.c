@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * int _islower - check if letter is lower
+ *  _islower - check if letter is lower
  * @c: character to check
  * Return: 0 (Success)
  */
