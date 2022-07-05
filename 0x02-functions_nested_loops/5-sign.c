@@ -8,15 +8,15 @@ int print_sign(int n)
 {
 	if (n > 0)
 	{
-		return (write('+', 1));
+		return (fwrite('+', 1));
 	}
 	else if (n < 0)
 	{
-		return (write('-', -1));
+		return (fwrite('-', -1));
 	}
 	else
 	{
-		return (write('0' + 0, 0));
+		return (fwrite('0' + 0, 0));
 	}
 }
 
