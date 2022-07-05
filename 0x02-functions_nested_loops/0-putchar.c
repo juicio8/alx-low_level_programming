@@ -23,4 +23,5 @@ int _putchar(void)
 	word = 'r';
 	putchar(word);
 	putchar('\n');
+	return (0);
 }
