@@ -8,5 +8,5 @@ int print_last_digit(int)
 {
 	int c;
 
-	return (int % 10);
+	return (c % 10);
 }
