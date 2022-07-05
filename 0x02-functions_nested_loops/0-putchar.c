@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**i
- * _putchar - display _putchar
+ * main - display _putchar
  *
  * Return: Always 0 (Success)
  */
-int _putchar(void)
+int main(void)
 {
 	int word;
 
