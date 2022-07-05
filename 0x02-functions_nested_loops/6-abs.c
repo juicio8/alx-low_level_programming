@@ -10,8 +10,10 @@ int _abs(int n)
 	int a;
 
 	if (n < 0 || n < 0)
+	{
 		a = abs (n);
 		return (a);
+	}
 	else
 		return (0);
 }
