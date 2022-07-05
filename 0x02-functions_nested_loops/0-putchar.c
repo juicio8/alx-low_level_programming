@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - Entry Point
+ * _putchar - display _putchar
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int _putchar(void)
 }
 	int word;
 
