@@ -18,6 +18,7 @@ void jack_bauer(void)
 	b = 0;
 	c = 0;
 	d = 0;
+	x = 0;
 
 	while (x < 1440)
 	{
