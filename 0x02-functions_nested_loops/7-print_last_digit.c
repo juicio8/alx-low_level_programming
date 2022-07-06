@@ -5,8 +5,6 @@
  * Return: Always return number
  */
 int print_last_digit(int c)
-{
-	int nv;
-	
+{	
 	return (c % 10);
 }
