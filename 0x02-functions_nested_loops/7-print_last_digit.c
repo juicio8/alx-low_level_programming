@@ -4,7 +4,7 @@
  *
  * Return: Always return nv
  */
-int print_last_digit(int c)
+int print_last_digit(int n)
 {	
 	int nv;
 
