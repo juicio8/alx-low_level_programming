@@ -13,12 +13,12 @@ void jack_bauer(void)
 
 	while (x < 1440)
 	{
-		_putchar(a + '0');
-		_putchar(b + '0');
-		_putchar(':');
-		_putchar(c + '0');
-		_putchar(d + '0');
-		_putchar('\n');
+		putchar(a + '0');
+		putchar(b + '0');
+		putchar(':');
+		putchar(c + '0');
+		putchar(d + '0');
+		putchar('\n');
 		d++;
 		if (d > 9)
 		{
