@@ -2,7 +2,8 @@
 #include "main.h"
 /**
  * print_last_digit - print last digit of a number
- * @n: number for getting last digit 
+ *
+ * @n : int type number.
  * Return: Always return nv
  */
 int print_last_digit(int n)
