@@ -9,16 +9,12 @@
 void jack_bauer(void)
 {
 	int x;
-	int a;
-	int b;
-	int c;
-	int d;
+	int a, b, c, d;
 
 	a = 0;
 	b = 0;
 	c = 0;
 	d = 0;
-	x = 0;
 
 	while (x < 1440)
 	{
