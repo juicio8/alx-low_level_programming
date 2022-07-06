@@ -9,17 +9,27 @@
 void jack_bauer(void)
 {
 	int x;
-	int a = 0, b = 0, c = 0, d = 0;
+	int a;
+	int b;
+	int c;
+	int d;
+
+	a = 0;
+	b = 0;
+	c = 0;
+	d = 0;
 
 	while (x < 1440)
 	{
-		putchar(a + '0');
-		putchar(b + '0');
-		putchar(':');
-		putchar(c + '0');
-		putchar(d + '0');
-		putchar('\n');
+		_putchar(a + '0');
+		_putchar(b + '0');
+		_putchar(':');
+		_putchar(c + '0');
+		_putchar(d + '0');
+		_putchar('\n');
+
 		d++;
+
 		if (d > 9)
 		{
 			d = 0;
