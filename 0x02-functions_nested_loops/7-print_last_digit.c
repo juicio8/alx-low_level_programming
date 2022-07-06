@@ -6,7 +6,7 @@
  * Return: Always return nv
  */
 int print_last_digit(int n)
-{	
+{
 	int nv;
 
 	if (n < 0)
