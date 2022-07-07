@@ -8,10 +8,10 @@
  */
 int _isupper(int c)
 {
-	if (isupper(c) == 1)
+	if ((c >= 'A') && (c <= 'Z'))
 	{
-		return ("%d: 1", c);
+		return (c": 1");
 	}
 	else
-		return ("%d: 0", c);
+		return (c": 1");
 }
