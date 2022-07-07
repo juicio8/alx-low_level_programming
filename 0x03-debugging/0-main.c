@@ -10,7 +10,8 @@ int main(void)
 	int c;
 
 	i = 0;
-	c = positive_or_negative(int c); 
-	printf("%c", c);
+	c = positive_or_negative(i);
+	printf("%s", c);	
+
 	return (0);
 }
