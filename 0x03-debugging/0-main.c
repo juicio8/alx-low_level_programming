@@ -7,11 +7,7 @@
 int main(void)
 {
 	int i;
-	char c[];
 
 	i = 0;
-	c = positive_or_negative(i);
-	printf("%s", c);	
-
-	return (0);
+	return (positive_or_negative(i));
 }
