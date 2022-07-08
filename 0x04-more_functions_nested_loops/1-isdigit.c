@@ -6,7 +6,7 @@
  */
 int _isdigit(int c)
 {
-	if (isdigit(c) == 1)
+	if (isdigit(c))
 		return (0);
 	else
 		return (1);
