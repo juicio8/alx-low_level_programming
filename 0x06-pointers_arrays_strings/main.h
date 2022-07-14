@@ -10,5 +10,6 @@ char *string_toupper(char *p);
 char *cap_string(char *s);
 char *rot13(char *);
 int _putchar(char c);
+void print_number(int n);
 
 #endif
