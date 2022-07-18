@@ -26,4 +26,5 @@ char *_stchr(char *s, char c)
 			return (NULL);
 		}
 	}
+	return (0);
 }
