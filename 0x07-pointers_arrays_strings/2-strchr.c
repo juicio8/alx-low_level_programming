@@ -7,7 +7,8 @@
  */
 char *_stchr(char *s, char c)
 {
-	int a = 0, b;
+	int a = 0;
+	int b;
 
 	while (s[a])
 	{
@@ -21,10 +22,6 @@ char *_stchr(char *s, char c)
 			s += b;
 			return (s);
 		}
-		else
-		{
-			return (NULL);
-		}
+		return ('\0');
 	}
-	return (0);
 }
