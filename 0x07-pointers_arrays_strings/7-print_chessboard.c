@@ -5,9 +5,10 @@
  *
  * Return: Nothing
  */
-void print_chessboard(char ((*a)[8])
+void print_chessboard(char (*a)[8])
 {
-	int b, c;
+	int b;
+	int c;
 
 	for (b = 0; b < 8; b++)
 	{
