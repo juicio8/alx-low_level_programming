@@ -22,6 +22,7 @@ char *_stchr(char *s, char c)
 			s += b;
 			return (s);
 		}
-		return ('\0');
 	}
+
+	return ('\0');
 }
