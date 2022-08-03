@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * array_iterator - iterates over elements in an array.
- * @array - array to be considered.
+ * @array: array to be considered.
  * @size: length of array;
  * @action: pointer to function
  *
@@ -11,6 +11,7 @@
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	unsigned int i = 0;
+
 	if (array != NULL && action != NULL && size > 0)
 	{
 		while (i < size)
@@ -18,6 +19,5 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 			action(array[i]);
 			i++;
 		}
-		
 	}
 }
