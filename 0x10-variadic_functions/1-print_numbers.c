@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_numbers - print numbers.
- * @seperstor: a comma'
+ * @separator: a comma'
  * @n: number of args.
  * Return: void.
  */
@@ -10,22 +10,22 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
 	char *str;
-
 	va_list args;
+
 	va_start(args, n);
+
 	for (i = 0; i < n; i++)
 	{
-		str = va_arg(valist, char *);
+		str = va_arg(args, char *);
 		if (str)
 			printf("%s", str);
 		else
 			printf("(nil)");
-		if (i < n - 1 && seperator)
+		if (i < n - 1 && separator)
 		{
-			printf("%s", seperator);
+			printf("%s", separator);
 		}
 		printf("\n");
 		va_end(args);
 	}
-	
 }
