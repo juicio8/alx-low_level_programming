@@ -1,5 +1,6 @@
 #include <stdarg.h>
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * print_numbers - print numbers.
  * @separator: a comma'
@@ -10,13 +11,15 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
 	char *str;
+	char *ptr;
 	va_list args;
 
 	va_start(args, n);
-
+	
 	for (i = 0; i < n; i++)
 	{
 		str = va_arg(args, char *);
+
 		if (str)
 			printf("%s", str);
 		else
@@ -29,3 +32,4 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	printf("\n");
 	va_end(args);
 }
+
