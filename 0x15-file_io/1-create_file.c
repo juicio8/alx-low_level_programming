@@ -3,7 +3,7 @@
  * create_file - creates a file and writes into it
  * @filename: the file.
  * @text_content: what you need to write
- *
+ * Return: ...
  */
 int create_file(const char *filename, char *text_content)
 {
