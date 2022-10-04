@@ -1,2 +1,2 @@
-* ALX low-level programming *
-all  about low level programming
+# ALX low-level programming
+- all  about low level programming
