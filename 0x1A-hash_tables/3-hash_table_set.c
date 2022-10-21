@@ -4,6 +4,7 @@
  * hash_table_set - adds an element to the hash table
  * @ht: given hash table pointer
  * @key: the given key
+ * @value: the given value
  *
  * Return: (1) if succeed
  * --------(0) otherwise
